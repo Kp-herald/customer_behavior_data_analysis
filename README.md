@@ -1,28 +1,30 @@
-# Customer Shopping Behavior Analysis
+#  Customer Shopping Behavior Analysis
 
-End-to-end data analytics project analyzing customer purchasing patterns, subscription behavior, customer segmentation, and revenue drivers using Python, SQL, and Power BI on a retail dataset of 3,900 customers.
+End-to-end data analytics project analyzing customer purchasing patterns, subscription behavior, customer segmentation, and revenue drivers using Python, SQL, and Power BI on a retail dataset of **3,900 customers**.
 
 ---
 
-## Project Structure
+##  Project Structure
+
+```
 customer-shopping-behavior/
-├── customer_shopping_behavior.csv # Raw Dataset
-├── customer_behaviour.ipynb # Python EDA & Preprocessing
-├── customer_shopping_behaviour.sql # MSSQL Business Queries
-├── customer_behavior_dashboard.pbix # Power BI Dashboard
-├── SCREENSHOT/
-│ └── customer_behavior_dashboard.png
+├── customer_shopping_behavior.csv        # Raw Dataset
+├── customer_behaviour.ipynb              # Python EDA & Preprocessing
+├── customer_shopping_behaviour.sql       # MSSQL Business Queries
+├── customer_behavior_dashboard.pbix      # Power BI Dashboard
+├── SCREENSHOTS/
+│   └── customer_behavior_dashboard.png
 └── README.md
-
+```
 
 ---
 
-## Dataset Overview
+##  Dataset Overview
 
 Retail shopping dataset containing customer demographics, purchasing behavior, subscription details, product information, and transaction metrics.
 
 | Feature | Description |
-|------|-------------|
+|---|---|
 | Customer ID | Unique customer identifier |
 | Age | Customer age |
 | Age Group | Derived customer segment |
@@ -42,7 +44,7 @@ Retail shopping dataset containing customer demographics, purchasing behavior, s
 
 ---
 
-## Python — Data Cleaning & EDA
+##  Python — Data Cleaning & EDA
 
 Performed data preprocessing and exploratory analysis using Pandas, NumPy, and Matplotlib.
 
@@ -57,36 +59,38 @@ Performed data preprocessing and exploratory analysis using Pandas, NumPy, and M
 
 ### Customer Segments Created
 
-- Young Adult
-- Adult
-- Middle Aged
-- Senior
+| Segment | Description |
+|---|---|
+| Young Adult | Lowest age quartile |
+| Adult | Second quartile |
+| Middle Aged | Third quartile |
+| Senior | Highest age quartile |
 
 ---
 
-## 🗄️ SQL — Business Analysis
+##  SQL — Business Analysis
 
 Solved 10 business problems using Microsoft SQL Server.
 
-| Question | SQL Concepts |
-|------|-------------|
-| Revenue by gender | `GROUP BY`, `SUM` |
-| High-spending discount users | Subqueries |
-| Top-rated products | `AVG`, `TOP`, `ORDER BY` |
-| Shipping comparison | `HAVING` |
-| Subscriber spending analysis | `COUNT`, `SUM`, `AVG` |
-| Discount usage percentage | `CASE WHEN` |
-| Customer loyalty segmentation | CTE |
-| Top products per category | `ROW_NUMBER()` |
-| Repeat buyers & subscriptions | Aggregation |
-| Revenue by age group | `GROUP BY` |
+| # | Question | SQL Concepts |
+|---|---|---|
+| 1 | Revenue by gender | `GROUP BY`, `SUM` |
+| 2 | High-spending discount users | Subqueries |
+| 3 | Top-rated products | `AVG`, `TOP`, `ORDER BY` |
+| 4 | Shipping comparison | `HAVING` |
+| 5 | Subscriber spending analysis | `COUNT`, `SUM`, `AVG` |
+| 6 | Discount usage percentage | `CASE WHEN` |
+| 7 | Customer loyalty segmentation | CTE |
+| 8 | Top products per category | `ROW_NUMBER()` |
+| 9 | Repeat buyers & subscriptions | Aggregation |
+| 10 | Revenue by age group | `GROUP BY` |
 
 ---
 
-## Dashboard Pages
+##  Dashboard Pages
 
 | Page | Description |
-|------|-------------|
+|---|---|
 | **Overview** | KPI cards for customers, average purchase amount, and review ratings |
 | **Subscription Analysis** | Customer distribution by subscription status |
 | **Category Performance** | Revenue and sales analysis across product categories |
@@ -95,24 +99,25 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-## Dashboard Preview
+##  Dashboard Preview
 
 ### Customer Shopping Behavior Dashboard
 ![Dashboard](SCREENSHOTS/customer_behavior_dashboard.png)
 
 ---
 
-## Tools Used
+##  Tools Used
 
-- **Jupyter Notebook** — Analysis environment
-- **Python** — Data cleaning & EDA
-- **Pandas** — Data manipulation
+
+- **Jupyter Notebook** — Analysis environment 
+- **Python** — Data cleaning & EDA 
+- **Pandas** — Data manipulation 
 - **Microsoft SQL Server** — Business analysis queries
-- **Power BI Desktop** — Dashboard development
+- **Power BI Desktop** — Dashboard development 
 
 ---
 
-## Key Insights
+##  Key Insights
 
 - Subscription customers contribute significantly higher revenue
 - Loyal customers are more likely to maintain subscriptions
@@ -123,14 +128,13 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-
-## Author
+##  Author
 
 **K Pramod Herald**
 
-- 📧 kpherald7@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/k-pramod-herald-92a27b295)
+-  kpherald7@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/k-pramod-herald-92a27b295)
 
 ---
-⭐ If you found this project useful, consider giving it a star.
-````
+
+⭐ If you found this project useful, consider giving it a star!
