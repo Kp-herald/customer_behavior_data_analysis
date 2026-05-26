@@ -1,10 +1,10 @@
-# 🛍️ Customer Shopping Behavior Analysis
+# Customer Shopping Behavior Analysis
 
 End-to-end data analytics project analyzing customer purchasing patterns, subscription behavior, customer segmentation, and revenue drivers using Python, SQL, and Power BI on a retail dataset of 3,900 customers.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 customer-shopping-behavior/
 ├── customer_shopping_behavior.csv # Raw Dataset
 ├── customer_behaviour.ipynb # Python EDA & Preprocessing
@@ -17,7 +17,7 @@ customer-shopping-behavior/
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 Retail shopping dataset containing customer demographics, purchasing behavior, subscription details, product information, and transaction metrics.
 
@@ -42,7 +42,7 @@ Retail shopping dataset containing customer demographics, purchasing behavior, s
 
 ---
 
-## 🐍 Python — Data Cleaning & EDA
+## Python — Data Cleaning & EDA
 
 Performed data preprocessing and exploratory analysis using Pandas, NumPy, and Matplotlib.
 
@@ -83,7 +83,7 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-## 📈 Dashboard Pages
+## Dashboard Pages
 
 | Page | Description |
 |------|-------------|
@@ -95,14 +95,14 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 
 ### Customer Shopping Behavior Dashboard
 ![Dashboard](SCREENSHOTS/customer_behavior_dashboard.png)
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Jupyter Notebook** — Analysis environment
 - **Python** — Data cleaning & EDA
@@ -112,7 +112,7 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Subscription customers contribute significantly higher revenue
 - Loyal customers are more likely to maintain subscriptions
@@ -124,7 +124,7 @@ Solved 10 business problems using Microsoft SQL Server.
 ---
 
 
-## 👤 Author
+## Author
 
 **K Pramod Herald**
 
