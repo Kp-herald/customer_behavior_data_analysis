@@ -87,18 +87,6 @@ Solved 10 business problems using Microsoft SQL Server.
 
 ---
 
-##  Dashboard Pages
-
-| Page | Description |
-|---|---|
-| **Overview** | KPI cards for customers, average purchase amount, and review ratings |
-| **Subscription Analysis** | Customer distribution by subscription status |
-| **Category Performance** | Revenue and sales analysis across product categories |
-| **Customer Segmentation** | Revenue and sales comparison by age groups |
-| **Interactive Filtering** | Dynamic filtering by subscription status, gender, category, and shipping type |
-
----
-
 ##  Dashboard Preview
 
 ### Customer Shopping Behavior Dashboard
